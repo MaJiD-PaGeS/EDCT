@@ -864,9 +864,6 @@ function createVLESSSub(userID_Path, hostName) {
 }
 
 const cn_hostnames = [
-    'snapp.ir',                // snapp - A popular social media platform
-    'tamin.ir',                // tamin - A popular social media platform
-    'instagram.com/vpn.cT,                // instagram - A popular social media platform
 	'weibo.com',                // Weibo - A popular social media platform
 	'www.baidu.com',            // Baidu - The largest search engine in China
 	'www.qq.com',               // QQ - A widely used instant messaging platform
