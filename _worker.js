@@ -3,7 +3,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = '51bab5fd-5e84-4578-9321-6b80576de690';
 
 const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.bestip.one'];
 
@@ -695,7 +695,7 @@ async function handleUDPOutBound(webSocket, vlessResponseHeader, log) {
  * @param {string | null} hostName
  * @returns {string}
  */
-function getVLESSConfig(userIDs, hostName) {
+function getVLESSConfig(userIDs, hostNamecT) {
 	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`;
 	const hashSeparator = "################################################################";
 
@@ -864,6 +864,9 @@ function createVLESSSub(userID_Path, hostName) {
 }
 
 const cn_hostnames = [
+    'snapp.ir',                // snapp - A popular social media platform
+    'tamin.ir',                // tamin - A popular social media platform
+    'instagram.com/vpn.cT,                // instagram - A popular social media platform
 	'weibo.com',                // Weibo - A popular social media platform
 	'www.baidu.com',            // Baidu - The largest search engine in China
 	'www.qq.com',               // QQ - A widely used instant messaging platform
